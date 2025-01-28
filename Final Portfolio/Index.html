@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+       
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <img src="Images/logo.png" height="100px" width="100px" alt="logo image">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hello, My name is <span class="purple">Khwahish</span>
+                <div>I am a passionate</div>
+                <div>Web Developer</div>
+                 <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="Images/image.png" alt="Developer Image">
+            </div>
+        </section>
+        <section id="about" class="aboutSection">
+            <h1>About Me</h1>
+            <P> I a passionate MERN stack developer with experience in building dynamic and responsive websites.I have learnt frameworks like Express.js,React,MongoDB,Node.js I love coding and continuously improving my skills to deliver high-quality web solutions. When I’m not coding, I enjoy exploring new technologies and learning new things. Let's connect and create something amazing together!</p>
+        </section>
+        <section id="skills" class="servicesSection">
+            <h1>Skills</h1> 
+            <div class="service-item">
+                <h2>Frontend</h2>
+                <ul type ="disc">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li></ul>
+            </div>
+            <div class="service-item">
+                <h2>Backend</h2>
+                    <ul><li>Node.js</li>
+                    <li>ExpressJS</li>
+                    <li>MongoDB</li></ul>
+            </div>
+            <div class="service-item">
+                <h2>Version Control</h2>
+                <ul><li>Git</li>
+                <li>Github</li></ul>
+            </ul>
+            </div>
+        </section>
+        <section id="projects" class="projectsSection">
+            <h1>Projects</h1>
+            <div class="project-item">
+                <h2>Tic Tac Toe</h2>
+                <p>I have created a game which with Html css and javascript.
+                                    </p>
+            </div>
+            <div class="project-item">
+                <h2>Gender Equality</h2>
+                <p>It's a real world website which motivates the women to excel in the life and raise the voice against the exploitation among them</p>
+            </div>
+            <div class="project-item">
+                <h2>Portfolio Project</h2>
+                <p>I have created my own portfolio website using HTML,CSS and JavaScript.The content is logically structured for the easy navigation throughout the website.The content is structured logically, with sections for personal information, work experience, education, skills, and projects, making it easy
+                    for recruiters to find what they need</p>
+            </div>
+        </section>
+<!-- Contact Section-->
+        <section id="contact" class="contactSection">
+            <h1>Contact Me</h1>
+            <header>
+             <p>If you have any questions, feel free to reach out!</p>
+            </header>
+       <main>
+            <h2>Get in Touch</h2>
+             <form method="post" action="/submit-contact-form">
+                            <div>
+                    <label for="name">Name:</label><br />
+                    <input type="text" id="name" name="name" required />
+                </div>
+                <div>
+                    <label for="email">Email:</label><br />
+                    <input type="email" id="email" name="email" required />
+                </div>
+                                <div>
+                    <label for="phone">Phone:</label><br />
+                    <input type="tel" id="phone" name="phone" />
+                </div>
+                <div>
+                    <label for="message">Message:</label><br />
+                    <textarea id="message" name="message" rows="4" required></textarea><br />
+                </div>
+                <button type="submit">Send Message</button> 
+            </form> 
+        </section>
+        <section id="contact-info" class="social">
+            <h1>Social Links</h1>
+            <div class="socials">
+                <a href="khwahishahuja74@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://github.com/Ahujakhwahish"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/khwahish-ahuja/"></a><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+              
+        </section>
+    </main>
+        <footer>
+        <p> @Created By Khwahish</p> 
+    </footer>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="style.js"></script>
+</body>
+</html>
